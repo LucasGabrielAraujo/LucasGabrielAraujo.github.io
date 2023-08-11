@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--metatados-->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Lucas Araujo" />
+    <meta name="description" content="Portfolio" />
+    <meta name="keywords" content="HTML, CSS, Javascript, Bootstrap" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <!--iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <!--estilos locales-->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <!--icono-->
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <title>Lucas-dev</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="img/icon.png" width="50" alt="logo de la pagina">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center aling-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero-->
+    <section class="hero aling-items-stretch">
+        <div class="hero-principal flex-column justify-content-center aling-items-center">
+            <img class="img-perfil" src="img/yo.jpg" alt="Foto de Lucas">
+            <h1>Hola, soy Lucas</h1>
+            <h2>Desarrollador Fullstack.</h2>
+        </div>
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid" src="img/dev.svg" alt="developer logo">
+        </div>
+    </section>
+    <!--sobre mi-->
+    <section class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Quien soy?</h2>
+            <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quia provident enim eaque, praesentium deserunt tempore accusantium rerum? Illo temporibus illum, eligendi praesentium a ipsum consequatur laudantium dignissimos totam laborum dolore fuga accusantium id quo hic vero veniam? Quaerat quas qui repellat? Vero culpa delectus est autem deserunt corporis fugit temporibus ducimus. Deleniti ad numquam hic excepturi eos dolorum. Neque eligendi ullam sapiente facere nemo nobis optio qui eum?</p>
+        </div>
+    </section>
+    <!--experiencia-->
+    <section class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!--desarrollo-->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Desarollo Web</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi dolore, quia ipsam accusamus facilis nam voluptatum.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">HTML</span>
+                        <span class="badge text-bg-primary">CSS</span>
+                        <span class="badge text-bg-primary">Javascript</span>
+                        <span class="badge text-bg-primary">NodeJs</span>
+                    </div>
+                </div>
+                <!--estudiante-->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Estudios</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi dolore, quia ipsam accusamus facilis nam voluptatum.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">LGTI</span>
+                        <span class="badge text-bg-primary">Python</span>
+                        <span class="badge text-bg-primary">Front-end</span>
+                        <span class="badge text-bg-primary">React</span>
+                    </div>
+                </div>
+                <!--otras experiencias-->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Tecnico IT</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi dolore, quia ipsam accusamus facilis nam voluptatum.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Ensamblado</span>
+                        <span class="badge text-bg-primary">Configuracion</span>
+                        <span class="badge text-bg-primary">Reparacion</span>
+                        <span class="badge text-bg-primary">Asesoria</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
