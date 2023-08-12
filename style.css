@@ -32,9 +32,19 @@ h1{
     padding: 15px 0;
     font-family: 'Source Code Pro', monospace;
 }
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
+}
 .seccion-texto{
     font-size: 1rem;
     font-family: 'Source Code Pro', monospace;
+}
+.texto-negro{
+    color: black;
+}
+.texto-blanco{
+    color: white;
 }
 
 /*hero*/
@@ -100,8 +110,21 @@ h1{
     color: white;
     background-color: #1b1b35;
 }
+/*proyectos*/
+.proyectos-recientes{
+    padding: 40px;
+}
+.proyectos-recientes img{
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
 
-
+    transition: all 0.2s ease;
+}
+.proyectos-contenedor{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
 
 
 
